@@ -1,2 +1,2 @@
-cars
-src/*.o
+build
+*.o
