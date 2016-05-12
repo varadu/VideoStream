@@ -11,9 +11,10 @@ extern "C" {
 
 class Server {
 public:
-	Server(std::string url);
-	bool start() noexcept;	
-	~Server(); 
+	Server(std::string input_url, std::string output_url)  noexcept;
+	void start();	
+	~Server() noexcept; 
 private:
-	std::string url;
+	std::string input_url;
+	std::string output_url;
 };
