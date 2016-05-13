@@ -3,7 +3,7 @@
 int main(int argc, char** argv) {
 	
 	//how do you do this if you want 	
-	Server server("rtsp://10.0.2.2:5454/live.sdp", "rtsp://0.0.0.0:5454/live.sdp");
+	Server server("rtsp://10.0.2.2:5454/live.sdp", "http://10.0.2.15:5454/live.ffm");
 	try {
 		server.start();
 	}
